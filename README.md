@@ -1,2 +1,2 @@
 # E-Commerce-site
-This is a E-Commerce site fontend design  
+This is a E-Commerce site front end design  
