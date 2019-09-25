@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>E-Commerce Website Single Product</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/1c2570533e.js"></script>
+   </head>
+   <body>
+      <div class="top-nav-bar">
+         <div class="search-box">
+            <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i> 
+            <a href="index.html"><img src="images/2019-05-04.png" class="logo"></a>
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fas fa-search"></i></span>
+         </div>
+         <div class="menu-bar">
+            <ul>
+               <li><a href="#"><i class="fas fa-shopping-basket"></i>cart</a></li>
+               <li><a href="#">Sign Up</a></li>
+               <li><a href="#">Log in</a></li>
+            </ul>
+         </div>
+      </div>
+      <!-------------Single Product---------------------------------->
+      <section class="single-product">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img class="d-block w-100" src="images/img 01.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="images/img 02.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="images/img 03.jpg" alt="Third slide">
+                        </div>
+                        <a class="carousel-control-prev" href="#product-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#product-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <p class="new-arrival text-center">NEW</p>
+                  <h2>Men's T Sharts V Neck - Blue Color</h2>
+                  <p>Product Code: IRSC2019</p>
+                  <i class="fa fa-star"></i> 
+                  <i class="fa fa-star"></i> 
+                  <i class="fa fa-star"></i> 
+                  <i class="fa fa-star"></i> 
+                  <i class="fa fa-star-half-o"></i>
+                  <p class="price"> USD $15.00</p>
+                  <p><b>Avialability </b>In Stock</p>
+                  <p><b>Condition: </b>New</p>
+                  <p><b>Brand: </b>XYZ Company</p>
+                  <label>Quantity: </label>
+                  <input type="text" name="" value="1">
+                  <button type="button" class="btn btn-primary">Add to Cart</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-----product description------------->
+      <section class="product-description">
+         <div class="container">
+            <h6>Product Description</h6>
+            <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <hr>
+         </div>
+         <div class="container" >
+            <div class="title-box">
+               <h2>Similar</h2>
+            </div>
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="product-top">
+                     <img src="images/product 01.jpg">
+                     <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star-half-o"></i>
+                     <h3>Fitness Watch</h3>
+                     <h5>$40.00</h5>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="product-top">
+                     <img src="images/product 02.jpg">
+                     <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i>
+                     <h3>Smart Watch</h3>
+                     <h5>$50.00</h5>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="product-top">
+                     <img src="images/product 03.jpg">
+                     <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i>
+                     <h3>Formal Shoes</h3>
+                     <h5>$500.00</h5>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="product-top">
+                     <img src="images/product 04.jpg">
+                     <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star"></i> 
+                     <i class="fa fa-star-half-o"></i> 
+                     <i class="fa fa-star-half-o"></i>
+                     <h3>Leather Watch</h3>
+                     <h5>$300.00</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--------footersection--------------------->
+      <section class="footer">
+         <div class="container ">
+            <div class="row">
+               <div class="col-md-3">
+                  <h1>Useful Links</h1>
+                  <p>Terms of use</p>
+                  <p>Terms of use</p>
+                  <p>Return Policy</p>
+                  <p>Discount Cupons</p>
+               </div>
+               <div class="col-md-3">
+                  <h1>Company</h1>
+                  <p>About Us</p>
+                  <p>Contact Us</p>
+                  <p>Career</p>
+                  <p>Affiliate</p>
+               </div>
+               <div class="col-md-3">
+                  <h1>Follow US On </h1>
+                  <p> <i class="fab fa-facebook-square"></i> Facebook</p>
+                  <p> <i class="fab fa-youtube-square"></i> YouTube</p>
+                  <p> <i class="fab fa-linkedin"></i> Linkedin</p>
+                  <p> <i class="fab fa-twitter-square"></i> Twitter</p>
+               </div>
+               <div class="col-md-3 footer-image">
+                  <h1>Download App </h1>
+                  <img src="images/downloadapps.png">
+               </div>
+            </div>
+            <hr>
+            <p class="copyright">Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+         </div>
+      </section>
+      <script type="text/javascript">
+         function openmenu() {
+            document.getElementById("side-menu").style.display="block";
+            document.getElementById("menu-btn").style.display="none";
+            document.getElementById("close-btn").style.display="block";
+         }
+         
+         function closemenu() {
+            document.getElementById("side-menu").style.display="none";
+            document.getElementById("menu-btn").style.display="block";
+            document.getElementById("close-btn").style.display="none";
+         }
+      </script>
+   </body>
+</html>
